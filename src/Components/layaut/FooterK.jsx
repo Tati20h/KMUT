@@ -1,4 +1,4 @@
-import logoFo from '../Assets/logoFo.png'
+import logoFo from '../../Assets/logoFo.png'
 
 export function FooterK() {
   return (

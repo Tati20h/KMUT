@@ -1,7 +1,7 @@
 
 export function SearchInput() {
     return (
-<form>
+<form className="form">
   <div
     className="relative max-w-lg mx-auto" 
     style={{
@@ -29,10 +29,10 @@ export function SearchInput() {
     <input
       type="search"
       id="search"
-      className="block w-full p-4 ps-10 text-m border rounded-lg focus:ring focus:border"
+      className="block w-full p-4 ps-10 text-Xl font-bold  border rounded-lg focus:ring focus:border"
       style={{
         color: 'rgba(163, 122, 82, 1)',
-        backgroundColor: 'rgba(108, 124, 92, 0.2)',
+        backgroundColor: 'rgba(255, 255, 255, 1)', // Fondo blanco aplicado aquí
         borderColor: 'rgba(108, 124, 92, 1)',
       }}
       required
@@ -49,6 +49,7 @@ export function SearchInput() {
     </button>
   </div>
 </form>
+
 
     )
 }

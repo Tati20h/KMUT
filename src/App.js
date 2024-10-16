@@ -1,22 +1,13 @@
 
 import './App.css';
-import { NavBar } from './Components/NavBar';
-import { SearchInput } from './Components/SearchInput';
-import { CardCash } from './Components/CardCash';
-import { FooterK } from './Components/FooterK';
+import { MiRouter } from './Router/MiRouter';
 
 
 
 function App() {
   return (
     <>
-      <NavBar />
-
-      <SearchInput />
-
-      <CardCash />
-
-      <FooterK />
+      <MiRouter />
     </>
   );
 }

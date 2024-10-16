@@ -4,7 +4,7 @@ export const productos = [
         id: "01",
         category: "masa Medre",
         descriotion: "",
-        name: "Pan Brioche",
+        name: "Pan Masa Madre",
         image: "https://github.com/Tati20h/KMUT/blob/main/src/Assets/brioche.png?raw=true",
         price: "$20.000",
     },
@@ -55,7 +55,7 @@ export const productos = [
     {
         id: "03",
         category: "masa Medre",
-        name: "Masa Madre",
+        name: "pan Centeno",
         image: "https://github.com/Tati20h/KMUT/blob/main/src/Assets/masamadre.png?raw=true",
         price: "$10.000",
 
