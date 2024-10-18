@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import { productos } from '../../data/data'
 
 export function CardCash() {
@@ -49,7 +50,7 @@ export function CardCash() {
                                             color: 'rgba(255, 255, 255, 1)',
                                         }}
                                     >
-                                        Add to cart
+                                        <NavLink to={`/products/${producto.id}`} activeClassName="active">Add to cart </NavLink>
                                     </a>
                                 </div>
                             </div>

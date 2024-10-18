@@ -55,7 +55,7 @@ export function NavBar() {
                                 onMouseLeave={(e) => e.target.style.color = 'rgba(163, 122, 82, 1)'}
                             >
 
-                              <NavLink to="/products" activeClassName="active">PRODUCTS</NavLink> 
+                              <NavLink to="/products" activeClassName="active">PRODUCT</NavLink> 
                             </a>
                         </li>
                         <li>

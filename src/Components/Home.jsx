@@ -1,5 +1,4 @@
 import React from 'react'
-import { NavBar } from './layaut/NavBar';
 import { SearchInput } from './layaut/SearchInput';
 import { Heading } from './layaut/Heading';
 import { CardCash } from './layaut/CardCash';
@@ -10,7 +9,7 @@ import { Banners } from './layaut/Banners';
 export const Home = () => {
     return (
         <>
-            <NavBar />
+          
 
             <SearchInput />
 
