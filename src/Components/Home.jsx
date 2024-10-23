@@ -1,15 +1,16 @@
 import React from 'react'
-import { SearchInput } from './layaut/SearchInput';
-import { Heading } from './layaut/Heading';
-import { CardCash } from './layaut/CardCash';
-import { FooterK } from './layaut/FooterK';
-import { Banners } from './layaut/Banners';
+import { SearchInput } from './layout/SearchInput';
+import { Heading } from './layout/Heading';
+import { CardCash } from './layout/CardCash';
+import { FooterK } from './layout/FooterK';
+import { Banners } from './layout/Banners';
+import { History } from './layout/History';
 
 
 export const Home = () => {
     return (
         <>
-          
+
 
             <SearchInput />
 
@@ -18,7 +19,7 @@ export const Home = () => {
             <Heading />
 
             <CardCash />
-
+            <History />
             <FooterK />
         </>
     )

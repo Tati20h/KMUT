@@ -4,7 +4,7 @@ import { Pay } from '../Components/Pay'
 import { Products } from '../Components/Products'
 import { Blog } from '../Components/Blog'
 import { Navigate, Route, Routes } from 'react-router-dom'
-import { NavBar } from '../Components/layaut/NavBar'
+import { NavBar } from '../Components/layout/NavBar'
 
 export const MiRouter = () => {
   return (

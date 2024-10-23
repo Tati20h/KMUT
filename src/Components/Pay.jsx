@@ -1,5 +1,5 @@
 import React from 'react'
-import { Banners } from './layaut/Banners'
+import { Banners } from './layout/Banners'
 
 export const Pay = () => {
   return (

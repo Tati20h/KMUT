@@ -35,7 +35,7 @@ export const productos = [
         price: "$16.000",
     },
     {
-        id: "01",
+        id: "05",
         category: "masa Medre",
         descriotion: "",
         name: "Pan Brioche",
@@ -44,7 +44,7 @@ export const productos = [
     },
 
     {
-        id: "02",
+        id: "06",
         category: "masa Medre",
         name: "Pan Ciabatta",
         image: "https://github.com/Tati20h/KMUT/blob/main/src/Assets/ciabatta.png?raw=true",
@@ -53,7 +53,7 @@ export const productos = [
     },
 
     {
-        id: "03",
+        id: "07",
         category: "masa Medre",
         name: "pan Centeno",
         image: "https://github.com/Tati20h/KMUT/blob/main/src/Assets/masamadre.png?raw=true",
@@ -62,7 +62,7 @@ export const productos = [
     },
 
     {
-        id: "04",
+        id: "08",
         category: "masa Medre",
         name: "Chapata",
         image: "https://github.com/Tati20h/KMUT/blob/main/src/Assets/chapapa.png?raw=true",

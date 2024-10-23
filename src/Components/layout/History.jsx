@@ -3,15 +3,15 @@ import { Button, Card } from "flowbite-react";
 
 export function History() {
     return (
-        <div className="flex justify-center items-center min-h-screen">
-            <Card className="max-w-sm">
+        <div className="flex justify-center items-center min-h-screen w-full">
+            <Card className="max-w-sm  w-full mx-auto">
                 <h5
                     className="text-2xl font-bold tracking-tight text-center"
-                    style={{ color: 'rgba(163, 122, 82, 1)' }}
+                    style={{ color: 'rgba(108, 124, 92, 1)' }}
                 >
                     History
                 </h5>
-           
+
 
 
                 <p className="font-normal text-gray-700 dark:text-gray-400">
