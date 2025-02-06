@@ -5,6 +5,7 @@ import { Products } from '../Components/Products'
 import { Blog } from '../Components/Blog'
 import { Navigate, Route, Routes } from 'react-router-dom'
 import { NavBar } from '../Components/layout/NavBar'
+import { Category } from '../Components/Category'
 
 export const MiRouter = () => {
   return (
@@ -16,6 +17,7 @@ export const MiRouter = () => {
         <Route path='/' element={<Navigate to="/home" />} />
         <Route path='/home' element={<Home />} />
         <Route path='/products/:id' element={<Products />} />
+        <Route path='category' element={ <Category />} />
         <Route path='/pay' element={<Pay />} />
         <Route path='/blog' element={<Blog />} />
 

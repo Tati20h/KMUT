@@ -3,6 +3,12 @@ import { productos } from '../../data/data'
 
 export function CardDesc() {
     const { id } = useParams();
+const saveProducttmp = () => {
+    console.log("in saving")
+    localStorage.setItem('request',id)
+}
+
+
     return (
         <div className="max-w-sm w-full mx-auto m-4" >
 
@@ -53,8 +59,10 @@ export function CardDesc() {
                                             backgroundColor: 'rgba(108, 124, 92, 1)',
                                             color: 'rgba(255, 255, 255, 1)',
                                         }}
+                                        onClick={saveProducttmp}
                                     >
-                                        <NavLink to={`/products/${producto.id}`} activeClassName="active">Add to cart</NavLink>
+                                        
+                                        <NavLink to="/pay" activeClassName="active">Add to cart</NavLink>
                                     </a>
                                 </div>
                             </div>

@@ -4,7 +4,7 @@ import { Heading } from './layout/Heading';
 import { CardCash } from './layout/CardCash';
 import { FooterK } from './layout/FooterK';
 import { Banners } from './layout/Banners';
-import { History } from './layout/History';
+
 
 
 export const Home = () => {
@@ -19,7 +19,7 @@ export const Home = () => {
             <Heading />
 
             <CardCash />
-            <History />
+            
             <FooterK />
         </>
     )

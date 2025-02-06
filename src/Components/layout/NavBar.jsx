@@ -2,7 +2,6 @@ import { NavLink } from 'react-router-dom';
 import logo from '../../Assets/logo.png';
 
 
-
 export function NavBar() {
     return (
 
@@ -40,7 +39,7 @@ export function NavBar() {
                                 onMouseLeave={(e) => e.target.style.color = 'rgba(108, 124, 92, 1)'}
                             >
                                 <NavLink to="/home" activeClassName="active" > HOME </NavLink>
-                               
+
                             </a>
                         </li>
                         <li>
@@ -55,7 +54,7 @@ export function NavBar() {
                                 onMouseLeave={(e) => e.target.style.color = 'rgba(163, 122, 82, 1)'}
                             >
 
-                              <NavLink to="/products" activeClassName="active">PRODUCT</NavLink> 
+                                <NavLink to="/products" activeClassName="active">PRODUCT</NavLink>
                             </a>
                         </li>
                         <li>
@@ -69,7 +68,7 @@ export function NavBar() {
                                 onMouseEnter={(e) => e.target.style.color = 'rgba(108, 124, 92, 1)'}
                                 onMouseLeave={(e) => e.target.style.color = 'rgba(163, 122, 82, 1)'}
                             >
-                                <NavLink to="/pay" activeClassName="active">CATEGORY</NavLink>
+                                <NavLink to="/category" activeClassName="active">CATEGORY</NavLink>
                             </a>
                         </li>
                         <li>
@@ -83,7 +82,7 @@ export function NavBar() {
                                 onMouseEnter={(e) => e.target.style.color = 'rgba(108, 124, 92, 1)'}
                                 onMouseLeave={(e) => e.target.style.color = 'rgba(163, 122, 82, 1)'}
                             >
-                                   <NavLink to="/blog" activeClassName="active">BLOG</NavLink>
+                                <NavLink to="/pay" activeClassName="active">BLOG</NavLink>
                             </a>
                         </li>
                     </ul>

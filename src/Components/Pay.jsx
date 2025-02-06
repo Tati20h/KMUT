@@ -1,10 +1,12 @@
 import React from 'react'
-import { Banners } from './layout/Banners'
+import { Heading3 } from './layout/Heading3'
+import { CardList } from './layout/CardList'
 
 export const Pay = () => {
   return (
-    <div>Pay
-        <Banners />
+    <div>
+        <Heading3 />
+        <CardList />
     </div>
   )
 }
